@@ -1,0 +1,5 @@
+//insert 
+
+v.insert(pos, value)
+
+or we can give multiple values starting from that pos
