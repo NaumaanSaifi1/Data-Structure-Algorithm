@@ -15,4 +15,5 @@ int main(){
     b.flip(0); // it flips the bit at position 0
     cout<<b<<endl;
     cout<<b.to_ulong()<<endl; // it converts the bitset to unsigned long
+    cout<<b.to_string()<<endl; // it converts the bitset to string
 }
