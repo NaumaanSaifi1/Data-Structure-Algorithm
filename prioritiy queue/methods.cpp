@@ -8,4 +8,5 @@ int main(){
     cout<<pq.top()<<endl; // it returns the top element
     pq.pop(); // it removes the top element
     cout<<pq.size()<<endl; // it returns the size of the priority queue
+    
 }
