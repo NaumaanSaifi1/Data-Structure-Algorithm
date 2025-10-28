@@ -20,12 +20,15 @@ int main(){
     }
 
     
-    int q;
-    cin>>q;
-    while(q--){
-        int x;
-        cin>>x;
-        cout<<hash[x]<<endl;
-    }
+    // int q;
+    // cin>>q;
+    // while(q--){
+    //     int x;
+    //     cin>>x;
+    //     cout<<hash[x]<<endl;
+    // }
+    int x;
+    cin>>x;
+    cout<<hash[x]<<endl;
     return 0;
 }
