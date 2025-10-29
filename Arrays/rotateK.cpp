@@ -25,6 +25,23 @@ public:
         }
     }
 };
+///OPTIMAL SOLUTIION 
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    void rotateOP(vector<int>& nums, int k) {
+        int n = nums.size();
+        k = k % n; // handle if k > n
+
+        // Correct syntax for reverse() with vector
+        reverse(nums.begin(), nums.begin() + (n - k));
+        reverse(nums.begin() + (n - k), nums.end());
+        reverse(nums.begin(), nums.end());
+    }
+};
+
 
 int main() {
     vector<int> arr = {1, 2, 3, 4, 5};
