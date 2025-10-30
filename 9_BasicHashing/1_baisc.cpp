@@ -29,6 +29,8 @@ int main(){
     // }
     int x;
     cin>>x;
-    cout<<hash[x]<<endl;
+    cout<<hash[x];
     return 0;
+
+
 }
