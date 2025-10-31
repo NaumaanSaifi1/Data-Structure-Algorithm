@@ -32,5 +32,4 @@ int main(){
     cout<<hash[x];
     return 0;
 
-
 }
