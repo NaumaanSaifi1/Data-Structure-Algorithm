@@ -19,7 +19,7 @@ public:
             hash[nums[i]] = i;
         }
 
-        return {-1,-1};  // if no solution 
+        return {-1,-1};  no solution 
     }
 };
 
