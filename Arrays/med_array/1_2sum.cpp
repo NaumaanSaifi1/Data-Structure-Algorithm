@@ -15,7 +15,7 @@ public:
                 return {hash[comp], i};  // we can return immediately after finding
             }
 
-            // store current value with its index
+            // store current value with it's index
             hash[nums[i]] = i;
         }
 
